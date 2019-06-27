@@ -1,0 +1,14 @@
+D:\O_CUNG_CUA_PHAT\MVC\WebsiteLaptop\Dataaccess\bin\Debug\Dataaccess.dll.config
+D:\O_CUNG_CUA_PHAT\MVC\WebsiteLaptop\Dataaccess\bin\Debug\Dataaccess.dll
+D:\O_CUNG_CUA_PHAT\MVC\WebsiteLaptop\Dataaccess\bin\Debug\Dataaccess.pdb
+D:\O_CUNG_CUA_PHAT\MVC\WebsiteLaptop\Dataaccess\bin\Debug\EntityFramework.dll
+D:\O_CUNG_CUA_PHAT\MVC\WebsiteLaptop\Dataaccess\bin\Debug\EntityFramework.SqlServer.dll
+D:\O_CUNG_CUA_PHAT\MVC\WebsiteLaptop\Dataaccess\bin\Debug\Model.dll
+D:\O_CUNG_CUA_PHAT\MVC\WebsiteLaptop\Dataaccess\bin\Debug\Model.pdb
+D:\O_CUNG_CUA_PHAT\MVC\WebsiteLaptop\Dataaccess\bin\Debug\EntityFramework.xml
+D:\O_CUNG_CUA_PHAT\MVC\WebsiteLaptop\Dataaccess\bin\Debug\EntityFramework.SqlServer.xml
+D:\O_CUNG_CUA_PHAT\MVC\WebsiteLaptop\Dataaccess\obj\Debug\Dataaccess.csprojResolveAssemblyReference.cache
+D:\O_CUNG_CUA_PHAT\MVC\WebsiteLaptop\Dataaccess\obj\Debug\Dataaccess.dll
+D:\O_CUNG_CUA_PHAT\MVC\WebsiteLaptop\Dataaccess\obj\Debug\Dataaccess.pdb
+D:\O_CUNG_CUA_PHAT\MVC\WebsiteLaptop\Dataaccess\obj\Debug\Dataaccess.Migrations.init.resources
+D:\O_CUNG_CUA_PHAT\MVC\WebsiteLaptop\Dataaccess\obj\Debug\Dataaccess.csproj.GenerateResource.Cache

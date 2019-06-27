@@ -1,0 +1,47 @@
+﻿@model Model.Product
+@{
+    Layout = "~/Views/Shared/_LayoutBuyingLaptop.cshtml";
+}
+
+<h1>THÔNG SỐ KỸ THUẬT</h1>
+
+<img style="border: 1px solid black; width: 35%; height:400px; float: left" src="~/Images/@Model.ImgName" />
+<div style="width: 65%; height: 400px; float: left; padding-left: 20px;">
+        <table class="table table-striped" style="width: 100%; height:100%">
+            <tbody>
+                <tr>
+                    <td>Tên máy</td>
+                    <td>@Model.ProductName</td>
+                </tr>
+                <tr>
+                    <td>CPU</td>
+                    <td>@Model.CPU</td>
+                </tr>
+                <tr>
+                    <td>RAM</td>
+                    <td>@Model.RAM</td>
+                </tr>
+                <tr>
+                    <td>Ổ Cứng</td>
+                    <td>@Model.HardDrive</td>
+                </tr>
+                <tr>
+                    <td>Card Màn Hình</td>
+                    <td>@Model.VideoCard</td>
+                </tr>
+                <tr>
+                    <td>Hệ Điều Hành</td>
+                    <td>@Model.OperatingSystem</td>
+                </tr>
+                <tr>
+                    <td>Trọng lượng</td>
+                    <td>@Model.Weight kg</td>
+                </tr>
+                <tr>
+                    <td>Kích thước</td>
+                    <td>@Model.Size</td>
+                </tr>
+            </tbody>
+            
+        </table>
+</div>
