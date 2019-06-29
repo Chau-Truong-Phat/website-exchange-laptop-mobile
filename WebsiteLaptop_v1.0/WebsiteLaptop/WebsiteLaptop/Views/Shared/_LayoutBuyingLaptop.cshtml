@@ -1,0 +1,207 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    @Styles.Render("~/Content/layout")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <!--Header-->
+    <header class="text-white" style="width:100%; background-color: #292c2f">
+        <nav class="navbar navbar-expand-lg navbar-dark" style="width:100%; background-color: #292c2f; padding-left: 30px;">
+            <a class="navbar-brand col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 p-2" href="@Url.Action("Index","Home")"><img style="width:90px; height: 36px; margin-right: 13px" src="~/Images/ptt-logo-sm.png" />Laptop - mobile</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse navbar-icon-top" id="navbarSupportedContent">
+                <form class="form-inline" style="width:70% ;height: 53px">
+                    <input style="width: 75%; height: 36px;" class="form-control" type="search" placeholder="Search" aria-label="Search">
+                    <button style="height: 36px" class="btn btn-outline-light" type="submit"><i class="fa fa-search"></i></button>
+                </form>
+                <div class="dropdown">
+                    <h6>
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Sản Phẩm
+                        </a>
+                    </h6>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <div class="container">
+                            <div class="row">
+                                <div style="border-right:1px solid grey; margin-right:10px" class="col-xl-6 row">
+                                    <h5 class="col-12"><a>SmartPhone</a></h5>
+                                    <div class="col-4">
+                                        <ul class="nav flex-column">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Apple</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Huawei</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Nokia</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Realme</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Masstel</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-4">
+                                        <ul class="nav flex-column">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Samsung</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Xiaomi</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">HONOR</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Asus</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">itel</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-4">
+                                        <ul class="nav flex-column">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Oppo</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">VSmart</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Vivo</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Wiko</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Mobiistar</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- /.col-md-4  -->
+                                <div class="col-xl-6 row">
+                                    <h5 class="col-12"><a>Laptop</a></h5>
+                                    <div class="col-4">
+                                        <ul class="nav flex-column">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Apple (Macbook)</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Dell</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">MSI</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-4">
+                                        <ul class="nav flex-column">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Asus</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">HP</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Masstel</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-4">
+                                        <ul class="nav flex-column">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Acer</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Lenovo</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Haier</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- /.col-xl-5  -->
+                            </div>
+                        </div>
+                        <!--  /.container  -->
+                    </div>
+                </div>
+                <h6 style="width: 200px" class="nav-link">
+                    <a style="text-decoration: none" class="text-white" href="#">
+                        <i style="margin-right: 10px" class="fa fa-shopping-cart">
+                            <span class="badge badge-danger">11</span>
+                        </i>Giỏ Hàng
+                    </a>
+                </h6>
+            </div>
+        </nav>
+    </header>
+
+    <!--body-->
+    <div style="height:auto; width:100%; margin-bottom: 500px" class="container container-fluid body-content">
+        @RenderBody()
+    </div>
+
+    <!--Footer-->
+    <footer class="footer-distributed">
+        <div class="footer-left">
+            <img style="width: 250px; height:100px;" src="~/Images/ptt-logo-sm.png" />
+            <p class="footer-links">
+                <a href="#">Home</a>
+                ·
+                <a href="#">Blog</a>
+                ·
+                <a href="#">Pricing</a>
+                ·
+                <a href="#">About</a>
+                ·
+                <a href="#">Faq</a>
+                ·
+                <a href="#">Contact</a>
+            </p>
+            <p class="footer-company-name">Company Name &copy; 2015</p>
+        </div>
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>12 Nguyễn Văn Bảo, Phường 4, Gò Vấp</span> TP Hồ Chí Minh, Việt Nam</p>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>077 469 7027</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:chautruongphat123@gmail.com">chautruongphat123@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span>About the company</span>
+                Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+            </p>
+            <div class="footer-icons">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/layout")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
